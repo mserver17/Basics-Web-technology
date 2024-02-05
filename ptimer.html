@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Изображение поверх блоков</title>
+    <style>
+        .container {
+            position: relative;
+            width: 500px;
+            height: 500px; /* Установите желаемую высоту контейнера */
+        }
+
+        .background1,
+        .background2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1; /* Устанавливаем z-index 1 для блоков фона */
+        }
+
+        .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Масштабируем изображение, чтобы оно полностью покрывало контейнер */
+            z-index: 2; /* Устанавливаем z-index 2 для изображения, чтобы оно лежало поверх блоков фона */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="background1" style="background-color: #f00;"></div>
+        <div class="background2" style="background-color: #00f;"></div>
+        <img src="components/pillow.png" alt="Overlay Image" class="image-overlay">
+    </div>
+
+</body>
+</html>
