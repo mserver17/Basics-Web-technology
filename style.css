@@ -18,7 +18,7 @@ body {
 .header-line {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Равномерное распределение между элементами */
+    justify-content: space-between; 
     height: 116px;
     margin-top: 4px;
 }
@@ -26,7 +26,7 @@ body {
 .logo {
     width: 123px;
     height: 63px;
-    margin-left: 113px; /* Отступ слева для логотипа */
+    margin-left: 113px; 
 }
 
 .nav {
@@ -49,7 +49,7 @@ body {
 }
 
 .basket {
-    margin-right: 120px; /* Отступ справа для корзины */
+    margin-right: 120px; 
     width: 22px;
     height: 20px;
 }
@@ -57,7 +57,7 @@ body {
 .conteinerForAdvertisement{
     position: relative;
     width: 100%;
-    height: 817px; /* Высота контейнера установлена равной высоте изображения */
+    height: 817px; 
 }
 
 .fone1,
@@ -122,7 +122,7 @@ body {
 }
 
 .second-text {
-    margin-top: 10px; /* Отступ сверху между ссылкой и текстом */
+    margin-top: 10px; 
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
     font-size: 45px;
@@ -136,7 +136,7 @@ body {
 
 .about {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 83px;
    
     justify-content: center;
     align-items: center;
@@ -158,10 +158,14 @@ body {
     
 }
 .about-button {
-    border-radius: 24px;
+    color: #B99BB6;
+    background-color: #ffffff;
     width: 141px;
     height: 45px;
-    border-color: #B99BB6;
+    border-radius: 24px;
+    border: 1px solid #B99BB6;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -282,7 +286,7 @@ body {
 
 .more-detailed {
     text-align: center;
-    margin: 74px; /* Размещение внизу контейнера */
+    margin: 74px; 
     
 
 }
@@ -327,7 +331,7 @@ body {
 
 
 img {
-    max-width: 100%; /* Делаем изображение адаптивным к размерам блока */
+    max-width: 100%;
     
 }
 
@@ -341,22 +345,26 @@ img {
 }
 
 .horizontal-line{
-    border: 1px solid #B08EAD; /* Цвет линии (красный в этом случае) */
+    border: 1px solid #B08EAD; 
     margin: 61px 0;
 }
 
+.detailed-1{
+    display: flex;
+    justify-content: space-between;
+}
   .detailed-2 {
       display: flex;
       align-items: center;
       justify-content: center;
       margin-left: 31px;
-      margin-right: 31px;
+     
       margin-bottom: 41px;
   }
   
   .detailed-2-info {
       flex: 1;
-      text-align: left; /* Выравнивание текста слева в блоке detailed-2-info */
+      text-align: left; 
       margin-left: 80px;
 
   }
@@ -375,11 +383,24 @@ img {
   }
 
 .button-detailed-2{
-    border-radius: 24px;
+    color: #B99BB6;
+    background-color: #ffffff;
     width: 141px;
     height: 45px;
-    border-color: #B99BB6;
+    border-radius: 24px;
+    border: 1px solid #B99BB6;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+  
 }
+.sofa-1{
+    width: 608px;
+    height: 416px;
+}
+
+
+
+
   
 
 
@@ -611,6 +632,9 @@ input::placeholder, textarea::placeholder {
 .footer-line-box-2{
     padding-left: 25px;
     padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 1215px;
 }
 
 .footer-conteiner{
@@ -652,15 +676,22 @@ input::placeholder, textarea::placeholder {
     font-size: 12px;
 }
 
+.link-nuv-up{
+    position: fixed;
+    bottom: 10px; 
+    right: 10px; 
+    z-index: 5;
+    cursor: pointer;
+}
 
 
 
 
 
- .pixel-perfect-image {
+.pixel-perfect-image {
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0.5;
- }
+}
