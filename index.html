@@ -14,7 +14,7 @@
 <body> 
     
     <div class="container">
-            <div class="header">        
+            <div id="header">        
                 <div class="header-line">   
                     <img src="components/logo.png" alt="" class="logo">
                     <div class="nav">
@@ -47,7 +47,7 @@
                 <div class="about">
                     <span class="im-designer">I'M A CUSHION DESIGNER</span>
                     <p class="about-text">Based in San Francisco, California I design trendy and fashion Cushions,<br> since I have memory I always had a tendency to design and illustration.</p>
-                    <button class="about-button">LEARN MORE</button>
+                    <button type="submit" class="about-button">LEARN MORE</button>
                 </div>
 
 
@@ -124,7 +124,7 @@
                         <p class="info-2-1">BEGINNINGS</p>
                         <p class="info-2-2">Credibly innovate granular internal or organic sources whereas high standards in web-readiness. Energistically scale future-proof core competencies vis-a-vis impactful experiences.</p>
                         <p class="info-2-3">Dramatically synthesize integrated schemas. with optimal networks.</p>
-                        <button class="button-detailed-2">LEARN MORE</button>
+                        <button type="submit" class="button-detailed-2">LEARN MORE</button>
                     </div>
                    
                 </div>
@@ -163,11 +163,12 @@
 
 
         <div class="price-container">
-            <div class="price-line-box">
+            <div class="price-internal-box">
+                <div class="price-line-box-1">
                     <div class="price-box-1">
                         <img src="components/price-1.png" class="price-img">
                         <div class="price-info">
-                            <a href="#" class="name-price">Plated Cushion</a>
+                            <p class="name-price">Plated Cushion</p>
                             <p class="price">$ 19.99 USD</p>
                         </div>
                     </div>
@@ -176,7 +177,7 @@
                     <div class="price-box-2">
                         <img src="components/price-2.png" class="price-img">
                         <div class="price-info">
-                            <a href="#" class="name-price">Silver Cushion</a>
+                            <p class="name-price">Silver Cushion</p>
                             <p class="price">$ 19.99 USD</p>
                         </div>
                     </div>
@@ -185,18 +186,18 @@
                     <div class="price-box-3">
                         <img src="components/price-3.png" class="price-img">
                         <div class="price-info">
-                            <a href="#" class="name-price">Deep Blue Cushion</a>
+                            <p class="name-price">Deep Blue Cushion</p>
                             <p class="price">$ 19.99 USD</p>
                         </div>
                     </div>
 
-            </div>
+                </div>
 
-            <div class="price-line-box">  
+                <div class="price-line-box-2">  
                     <div class="price-box-4">
                         <img src="components/price-4.png" class="price-img">
                         <div class="price-info">
-                            <a href="#" class="name-price">Pink Cushion</a>
+                            <p class="name-price">Pink Cushion</p>
                             <p class="price">$ 19.99 USD</p>
                         </div>
                     </div>
@@ -205,7 +206,7 @@
                     <div class="price-box-5">
                         <img src="components/price-5.png" class="price-img">
                         <div class="price-info">
-                            <a href="#" class="name-price">Black Cushion</a>
+                            <p class="name-price">Black Cushion</p>
                             <p class="price">$ 19.99 USD</p>
                         </div>
                     </div>
@@ -214,17 +215,111 @@
                     <div class="price-box-6">
                         <img src="components/price-6.png" class="price-img">
                         <div class="price-info">
-                            <a href="#" class="name-price">Green Cushion</a>
+                            <p class="name-price">Green Cushion</p>
                             <p class="price">$ 19.99 USD</p>
                         </div>
                     </div>
 
+                </div>
             </div>
-
         </div>
 
+        <div class="user-info">
+            <div class="user-container">
+                <div class="contacts">
+
+                    <div class="email-data">
+                        <p class="email-title">EMAIL</p>
+                        <a href="#" class="email">support@website.com</a>
+                    </div>
+                    <div class="phome-namber">
+                        <p class="email-title">PHONE</p>
+                        <a href="#" class="number">800-123-456</a>
+                    </div>
+                    <div class="address-data">
+                        <p class="email-title">ADDRESS</p>
+                        <a href="#" class="address">23 Evergreen Street,<br>
+                            San Francisco, California<br>USA</a>
+                    </div>
+
+                </div>
+
+
+
+                <div class="feedback">
+                    <div class="feedback-text">
+                        <p class="feedback-title">ADDRESS</p>
+                        <p class="feedback-explanations">Drop us your message and I'll get back to you as soon as possible.</p>
+                    </div>
+
+                    <div class="input-container">
+                        <input class="person-name" type="text" placeholder="Your name">
+                        <input class="person-company" type="text" placeholder="Your company">
+                        
+                        <input class="person-phone" type="text" placeholder="Your phone">
+                        <input class="person-email" type="text" placeholder="Your email">
+                    </div>
+
+                    <textarea rows="4" cols="50" placeholder="your massege" class="text-field"></textarea>
+                    <button type="submit" class="button-lets-talk">Lets-talk</button>
+
+                </div>
+            </div>
+        </div>
 
     </div>
+
+        <footer id="footer">
+            <div class="footer-conteiner">
+                <div class="footer-line-box-1">
+                    <div class="footer-nav">
+                    <img src="components/footer-logo.png" alt="*" class="footer-logo">
+                    
+                        <a class="footer-nav-item" href="*">Home</a>
+                        <a class="footer-nav-item" href="*">About me</a>
+                        <a class="footer-nav-item" href="*">Products</a>
+                        <a class="footer-nav-item" href="*">Contact me</a>
+                    </div>
+                    <div class="facebook">
+                        <a href="#"><img class="facebook-logo" src="components/facebook.png"></a>
+                    </div>
+                </div>
+                <div class="footer-line-box-2">
+                    <div class="footer-link">
+                        
+                        <div class="link-box">
+                            <a class="link-f" href="#">Version 1.2</a>
+                            <a class="link-f" href="#">| Image</a>
+                        </div>
+
+                        <div class="link-box">
+                            <a class="link-f"  href="#">Licensing</a>
+                            <a class="link-f" href="#">| Made By</a>
+                        </div>
+
+                        <div class="link-box">
+                            <a class="link-f" href="#">Pablo Ramos</a>
+                            <a class="link-f" href="#">| Visit My</a>
+                        </div>
+
+                        <div class="link-box">
+                            <a class="link-f" href="#">Templates</a>
+                            <a class="link-f" href="#">| Powered By</a>
+                        </div>
+
+                        <div class="link-box">
+                            <a class="link-f" href="#">Webflow</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    
+
+
+    <!-- <img class="pixel-perfect-image" src="/components/pixel-perfect.png" alt=""/> -->
     <script src="script.js"></script>
 </body>
 </html>

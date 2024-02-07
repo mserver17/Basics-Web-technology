@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
 
 body {
     margin: 0;
@@ -115,7 +116,7 @@ body {
 
 .second-link {
     text-decoration: none;
-    color: #ffffff; /* Цвет ссылки */
+    color: #ffffff; 
     margin-top: 29px;
     font-size: 19px;
 }
@@ -131,10 +132,7 @@ body {
     
 }
 
-.conteinerForAbout {
-  
-   
-}
+
 
 .about {
     text-align: center;
@@ -217,9 +215,6 @@ body {
 
 
 
-.containerFor-fon3{
-    
-}
 
 .fone-3{
     width: 100% ;
@@ -430,18 +425,242 @@ img {
 
 
 
-
-.price-container{
-   margin: 112
+.price-internal-box{
+    margin-left: 112px;
+    width: 1185px;
+    height: 991px;
+    margin-bottom: 180px;
 }
 
-
-.price-line-box{
+.price-line-box-1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: 70px;
-    margin-left: 70px;
-    margin-top: 80px;
-    margin-bottom: 70px;
+    margin-top: 68px;
+    
+    
 }
+.price-line-box-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 48px;
+       
+}
+
+
+.name-price{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #5F4D5D;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.price{
+    font-family: 'Roboto', sans-serif;
+    color: #CEB3CB;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+.user-info{
+    background-color: #CEB3CB;
+}
+.user-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.contacts{
+    margin-top: 30px;
+}
+.email-title,.phome-namber,.addrese-data{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+}
+
+.email,.address,.number{
+    color: #ffffff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    
+}
+
+
+
+
+
+
+
+.feedback{
+    width: 642px;
+    height: 418px;
+    margin-left: 80px;
+}
+
+.contacts{
+    width: 304px;
+    height: 418px;
+    margin-left: 140px;
+    margin-top: 90px;
+}
+
+.feedback-title{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.feedback-explanations{
+    color: #ffffff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+}
+
+.person-name,.person-company, .person-phone, .person-email{
+    color: #ffffff;
+    width: 270px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-right: 22px;
+    background-color: #CEB3CB;
+    border: 1px solid #ffffff;
+    /* font-style: italic; */
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+.input-container{
+    display:block;
+    justify-content: space-between;
+    
+}
+
+input::placeholder, textarea::placeholder {
+    color: #ffffff; 
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+
+.text-field{
+    color: #ffffff;
+    width: 590px;
+    height: 103px;
+
+    background-color: #CEB3CB;
+    border: 1px solid #ffffff;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+
+}
+
+
+
+
+
+.button-lets-talk{
+    color: #ffffff;
+    width: 210px;
+    height: 50px;
+    background-color: #CEB3CB;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+
+    margin-top: 20px ;
+    
+}
+
+
+
+
+#footer{
+    background-color: #C9ADC6;
+}
+.footer-line-box-1{
+    display: flex;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 116px;  
+}
+.footer-line-box-2{
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+.footer-conteiner{
+    margin-left: 87px;
+}
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav-item {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 21px;
+    margin-left: 40px;
+    margin-top: 15px;
+
+    transition: color 0.3s linear;
+}
+.facebook{
+    margin-right: 90px;
+}
+
+.footer-nav-item:hover {
+    color: rgb(238, 8, 8);
+
+}
+
+.footer-link{
+    display: flex;
+}
+.link-box{
+    margin-right: 25px;
+}
+.link-f{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+
+
+
+
+ .pixel-perfect-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.5;
+ }
