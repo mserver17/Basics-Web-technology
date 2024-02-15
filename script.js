@@ -14,7 +14,7 @@ window.addEventListener('scroll', function() {
     } else {
         backToTopButton.style.bottom = '-50px'; 
     }
-});
+}); 
 
 backToTopButton.addEventListener('click', function(event) {
     event.preventDefault();
@@ -23,4 +23,11 @@ backToTopButton.addEventListener('click', function(event) {
         behavior: 'smooth'
     });
 });
+
+document.querySelector('.burger').addEventListener('click', function(){
+    this.classList.toggle('active');
+    document.querySelector('.nav').classList.toggle('open');
+    
+})
+
 
