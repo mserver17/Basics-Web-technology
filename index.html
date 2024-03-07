@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MARIELA</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/components/logo.png" type="image/x-icon" />
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -256,8 +258,8 @@
                         <input class="person-name" type="text" placeholder="Your name">
                         <input class="person-company" type="text" placeholder="Your company">
                         
-                        <input class="person-phone" type="tel" name="quantity" min="8" max="20" placeholder="Your phone">
-                        <input class="person-email" type="email" placeholder="Your email">
+                        <input class="person-phone" type="tel" name="quantity" inputmode="numeric" pattern = "[0-9]*" min="8" max="20" placeholder="Your phone">
+                        <input class="person-email" type="email" placeholder="Your email" inputmode="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                     </div>
 
                     <textarea rows="4" cols="50" placeholder="your messege" class="text-field"></textarea>
@@ -326,7 +328,7 @@
     
 
 
-    <!-- <img class="pixel-perfect-image" src="/components/pixel-perfect.png" alt=""/> -->
+    <!-- <img class="pixel-perfect-imag/e" src="/components/Desktop.png" alt=""/> -->
     <script src="script.js"></script>
 </body>
 </html>

@@ -22,13 +22,13 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    height: 116px;
-    margin-top: 4px;
+    height: 104px;
+    margin-top: 9px;
 }
 
 .logo {
     height: 63px;
-    margin-left: 113px; 
+    margin-left: 103px; 
 }
 
 .nav {
@@ -55,7 +55,7 @@ footer{
 }
 
 .basket {
-    margin-right: 120px; 
+    margin-right: 130px; 
     height: 20px;
 }
 .burger{
@@ -149,7 +149,7 @@ footer{
 .conteinerForAdvertisement {
     position: relative;
     width: 100%;
-    height: 817px; 
+    height: 765px; 
 }
 
 .conteinerForAdvertisement::before,
@@ -164,78 +164,59 @@ footer{
 .conteinerForAdvertisement::before {
     top: 0;
     background-color: #C9ADC6;
+    height: 65%;
 }
 
 .conteinerForAdvertisement::after {
     bottom: 0;
     background-color: #D6BBD3; 
-}
-
-
-
-.fone1,
-.fone2 {
-    position: relative;
-    width: 10vh;
-    z-index: 1;
-    
-    top: 0;
-    bottom: 0; 
-}
-
-.fone1 {
-    background-color: #C9ADC6;
-    height: 458px; 
-}
-
-.fone2 {
-    background-color: #D6BBD3;
-    height: 359px; 
+    height: 35%;
 }
 
 
 
 .container-image-overlay{
-    width: 851px;
+    width: 801px;
     height: 675px;
 }
 .image-overlay {
     margin-bottom: 72px;   
     z-index: 2;
     position: absolute;
-    left: 41%;
+    left: 42%;
     top: 50%;
     transform: translate(-50%, -50%);
     opacity: 1;
     object-fit: cover;
+    width: 801px;
 }
 
 .most-over {
     position: absolute;
-    left: 79%;
-    top: 51%; 
+    left: 77.8%;
+    top: 50%; 
     transform: translate(-50%, -50%);
     text-align:start;
     color: #ffffff; 
     z-index: 3;
     background-color: #B08EAD;
-    width: 425px;
-    height: 450px;
+    width: 385px;
+    height: 424px;
     padding-left: 20px;
     
 }
 
 .most-over-text{
     align-items: center;
-    margin-top: 124px;
-    margin-left: 40px;
+    margin-top: 110px;
+    margin-left: 15px;
 }
 
 .second-link {
     text-decoration: none;
     color: #ffffff; 
-    margin-top: 29px;
-    font-size: 19px;
+    font-size: 18px;
+    text-decoration:underline;
 }
 
 .second-text {
@@ -245,15 +226,16 @@ footer{
     font-size: 45px;
 }
 .smallNew{
-    font-size: 19px;
+    font-size: 18px;
     
 }
 
 
 
 .about {
+    height: 181px;
     text-align: center;
-    margin-top: 83px;
+    margin-top: 75px;
    
     justify-content: center;
     align-items: center;
@@ -269,8 +251,8 @@ footer{
 .about-text{
     font-family: 'Cormorant Garamond', serif;
     font-size: 26px;
-    margin-right: 109px;
-    margin-left: 109px;
+    letter-spacing: 38;
+    margin: 17px 109px;
    
     
 }
@@ -294,7 +276,7 @@ footer{
 .card-item{
     background-color: #CEB3CB;
     text-align: start;
-    width: 33%;
+    width: 34%;
     padding-bottom: 23px;
     margin-left: 35px;
     box-shadow: 10px 10px 40px 20px #0000001A;
@@ -311,7 +293,9 @@ footer{
 
 .card-item {
     width: calc(33.33% - 70px); 
-    margin: 20px 35px; 
+    margin-left: 31px;
+    margin-right: 31px;
+
 }
 
 
@@ -346,24 +330,24 @@ footer{
 
 .fone-3{
     width: 100% ;
-    height: 825px;
+    height: 772px;
     background-color: #CEB3CB;
-    margin-top: 76px;
+    margin-top: 60px;
     position: relative;
 }
 
 
 .sep-over-info{
     width: 440px;
-    height: 450px;
+    height: 480px;
     background-color: #B08EAD;
     position: absolute;
     z-index: 2;
-    left: 35%;
-    top: 51%; 
+    left: 33%;
+    top: 46.5%; 
     transform: translate(-50%, -50%);
     text-align:start;
-    padding-left: 63px;
+    padding-left: 50px;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -373,7 +357,7 @@ footer{
 
 }
 .small-About{
-    font-size: 19px;
+    font-size: 17px;
     color: #ffffff;
    
 }
@@ -382,21 +366,24 @@ footer{
    
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
-    font-size: 45px;
+    font-size: 43px;
     color: #ffffff;
 }
 .sep-card-link{
     text-decoration: none;
     color: #ffffff; 
-    font-size: 19px;
+    font-size: 17px;
+    text-decoration: underline;
 }
 
 
 
 .sep-image-overlay{
     position:absolute;
+    width: 540px;
+    height: 635px;
     z-index: 3;
-    left: 64%;
+    left: 60.7%;
     top: 50%;
     transform: translate(-50%, -50%);
     opacity: 1;
@@ -1079,8 +1066,9 @@ input::placeholder, textarea::placeholder {
 
 /* .pixel-perfect-image {
     position: absolute;
+    z-index: 60;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    opacity: 0.5;
+    opacity: 0.3;
 } */
