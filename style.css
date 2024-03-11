@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
 
+body,html{
+    overflow-x: hidden;
+}
+
 body,.container{
     margin: 0;
     width: 100%;
@@ -913,11 +917,13 @@ input::placeholder, textarea::placeholder {
     .footer-link{
         flex-direction: column;
         align-items: center;
-        margin-left: 30px;
+        margin-left: 130px;
     }
     .link-box{
         margin-top: 10px;
     }
+   
+  
 }
 
 @media (max-width: 550px){
@@ -932,10 +938,15 @@ input::placeholder, textarea::placeholder {
         height: 40px;
       
     }
+    .feedback,.contacts{
+        margin-left: 50px;
+        width: auto;
+    }
 }
 @media (max-width: 830px){
     .footer-line-box-1,.footer-line-box-2{
         padding-left: 15px;
+      
     }
     .footer-conteiner{
         margin: 0%;
@@ -987,6 +998,7 @@ input::placeholder, textarea::placeholder {
             left: 64%;
             top: 50%;
             transform: translate(-64%, -50%);
+            
         }
         .sep-over-info{
             width: 240px;
@@ -1062,7 +1074,14 @@ input::placeholder, textarea::placeholder {
     .price-container{
         margin-left: 20px;
     }
+
+
+    .sep-image-overlay,.sep-image-overlay-2,.sep-over-info,.sep-over-info-2{
+        box-shadow: none;
+    }
+
 }
+
 
 /* .pixel-perfect-image {
     position: absolute;
